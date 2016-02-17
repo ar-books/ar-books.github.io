@@ -19,7 +19,11 @@ image:
       </div><!-- /.entry-image -->
     {% endif %}
     <div class="entry-meta">
-      <span class="fn"><a>أنشئ في </a></span><span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="تفاصيل أكثر عن {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
+      <span class="fn"><a>أنشئ في </a></span><span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }}</a></time></span>
+    {% if post.author %}
+        {% assign author = site.data.authors[post.author] %}
+        <span class="author vcard"><span class="fn"><a href="{{ author.preferred_contact }}" title="تواصل مع {{ author.name }}">{{ author.name }}</a></span></span>
+    {% endif %}
       {% if site.reading_time %}
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
