@@ -1,9 +1,9 @@
 #السطر التالي إسم الموقع
-title:            فلوبي ديسك
+title:            تقارير قارئ
 #السطر التالي وصف الموقع
-description: مجموعة شباب بمختلف المهارات نهدف لاثراء المحتوى العربي التقني.
+description: مجموعة من خلاصات الكتب تطرح لنقل الفائدة و إنماء المحتوى العربي.
 #السطر التالي إسم المستخدم الخاص للربط بموقع التعليقات المجاني - ديسقوس
-disqus_shortname: flpydisk
+disqus_shortname: readereport
 #السطر التالي تفعيل خيار الوقت المستغرق للقراءة
 reading_time:     true
 words_per_minute: 200
@@ -13,15 +13,15 @@ url:			  http://ar-books.github.io
 
 # Owner/author information
 owner:  
-  name:           فلوبي ديسك
+  name:           تقارير القراء
   avatar:         logo.png
-  bio:             مجموعة شباب بمختلف المهارات نهدف لاثراء المحتوى العربي التقني.
+  bio:             مجموعة من خلاصات الكتب تطرح لنقل الفائدة و إنماء المحتوى العربي.
   #email:
   # Social networking links used in footer. Update and remove as you like.
-  youtube:  https://www.youtube.com/channel/UC4V8Q3GkhcUs1Wwu8p07GmQ
+  #youtube:  
   #twitter:        
   #facebook:       
-  github:         flpydisk
+  github:         ar-books/ar-books.github.io
   #stackexchange:  
   #linkedin:       
   #instagram:      
