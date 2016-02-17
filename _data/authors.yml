@@ -1,7 +1,7 @@
 # Authors
 
-flpydisk:
-  name: تقارير قراء
+readereport:
+  name: تقارير قارئ
   preferred_contact: http://ar-books.github.io
   web:
   email:
